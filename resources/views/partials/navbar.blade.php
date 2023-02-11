@@ -20,6 +20,12 @@
                     <a class="nav-link {{ $active == 'categories' ? 'active' : '' }}" href="/categories">Categories</a>
                 </li>
             </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="/login" class="nav-link {{ $active == 'login' }}"><i class="bi bi-box-arrow-in-right"></i>
+                        Login</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
