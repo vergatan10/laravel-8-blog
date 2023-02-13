@@ -66,4 +66,9 @@ class Post extends Model
     // {
     //     return $this->belongsTo(User::class);
     // }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 }
