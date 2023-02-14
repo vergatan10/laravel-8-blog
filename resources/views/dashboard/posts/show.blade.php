@@ -20,7 +20,7 @@
                     {!! $post->body !!}
                 </article>
                 {{-- </article> --}}
-                <a href="/posts" class="d-block mt-3">Back to Posts</a>
+                <a href="/dashboard/posts" class="d-block mt-3">Back to Posts</a>
             </div>
         </div>
     </div>
